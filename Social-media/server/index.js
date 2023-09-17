@@ -29,7 +29,7 @@ cloudinary.config({
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
     api_key: process.env.CLOUDINARY_API_KEY,
     api_secret: process.env.CLOUDINARY_API_SECRET,
-    /*api_environment_variable: process.env.CLOUDINARY_URL*/
+    /*api_environment_variable: process.env.CLOUDINARY_URL__NODE_ENV=production node ./index.js"__NODE_ENV=development nodemon*/
 });
 
 
