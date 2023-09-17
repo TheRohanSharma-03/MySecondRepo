@@ -1,0 +1,10 @@
+cd server:
+npm init -y: to create file package.json
+npm i express mongoose dotenv
+npm i -g nodemon
+npm install mongodb
+mongodb user:rohan
+mongodb pass:yrxNToUe8rnSOeWx
+copy mongodb url from atlas and paste on ./server/dbConnect.js
+npm i morgan
+npm i bcrypt
